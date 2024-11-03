@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import HeroImg from "../assets/img/hero/hero-2.png";
 import '../assets/css/style.css'; 
-import '../assets/js/jquery.slicknav.js';
 
 
 

@@ -7,12 +7,7 @@ import './assets/css/elegant-icons.css';
 import './assets/css/font-awesome.min.css'; 
 import './assets/css/owl.carousel.min.css'; 
 
-import './assets/js/jquery-3.3.1.min.js';
-import './assets/js/bootstrap.min.js';
-import './assets/js/jquery.magnific-popup.min.js';
-import './assets/js/masonry.pkgd.min.js';
-import './assets/js/mixitup.min.js';
-import './assets/js/owl.carousel.min.js';
+
 import Header from './static/Header';
 import Hero from './components/Hero';
 import About from './components/About';
