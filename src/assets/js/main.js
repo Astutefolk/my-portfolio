@@ -2,9 +2,7 @@
 
 (function ($) {
 
-    /*------------------
-        Preloader
-    --------------------*/
+    
     $(window).on('load', function () {
         $(".loader").fadeOut();
         $("#preloder").delay(200).fadeOut("slow");
@@ -12,9 +10,7 @@
        
     });
 
-    /*------------------
-        Background Set
-    --------------------*/
+    
     $('.set-bg').each(function () {
         var bg = $(this).data('setbg');
         $(this).css('background-image', 'url(' + bg + ')');
@@ -27,17 +23,13 @@
         gutter: 10
     });
 
-    /*------------------
-		Navigation
-	--------------------*/
+    
     $(".mobile-menu").slicknav({
         prependTo: '#mobile-menu-wrap',
         allowParentLinks: true
     });
 
-    /*------------------
-		Hero Slider
-	--------------------*/
+    
     $('.hero__slider').owlCarousel({
         loop: true,
         dots: true,
@@ -61,9 +53,7 @@
         }
     });
 
-    /*------------------
-        Logo Slider
-    --------------------*/
+    
     $(".logo__carousel").owlCarousel({
         loop: true,
         margin: 100,
@@ -88,11 +78,6 @@
         }
     });
 
-
-
-    /*------------------
-        Counter
-    --------------------*/
     $('.counter_num').each(function () {
         $(this).prop('Counter', 0).animate({
             Counter: $(this).text()
